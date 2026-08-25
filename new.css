@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(to bottom,#cdb8ea,#ffc7b0,#ff8200);
+    color: #7a0057;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.logo{
+    font-size: 42px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu span{
+    width: 45px;
+    height: 4px;
+    background: #7a0057;
+}
+.hero{
+    padding: 30px;
+}
+.hero h1{
+    font-size: 110px;
+    line-height: 90px;
+    font-weight: bold;
+}
+.hero h2{
+    margin-top: 80px;
+    font-size: 40px;
+
+}
+.hero p{
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 1.6;
+    width: 60%;
+}
+.hero h3{
+    margin-top: 250px;
+    font-size: 55px;
+}
+.hero label{
+    display: block;
+    margin-top: 30px;
+    font-size: 30px;
+}
+input [type=email]{
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid #7a0057;
+    background: transparent;
+}
+.check{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 28px;
+    margin-top: 40px;
+}
+.check input{
+    width: 25px;
+    height: 25px;
+}
+button{
+    width: 100%;
+    padding: 22px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #85005e;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+footer{
+    margin-top: 70px;
+    background: #85005e;
+    padding: 50px;
+    color: white;
+}
+.social a{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.links{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer p{
+    margin-top: 80px;
+    font-size: 22px;
+}
